@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+div.highlight {
+    background-color: red;
+    border: solid 1px black;
+    border-radius: 5px;
+}
