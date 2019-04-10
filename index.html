@@ -23,15 +23,35 @@
         <h1>Senior Project</h1>
 
         <form action="buildCalc.php" method="POST">
+               
+
+
+                Do you want a Laptop or Desktop?
+                <label for="exampleFormControlSelect1"></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Choose</option>  
+                  <option>Laptop</option>
+                  <option>Desktop</option>
+                </select>
+              </div> 
+              <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                      Touchscreen
+                    </label>
+                  </div>
+                  <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          No Touchscreen
+                        </label>
+                      </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
-
-
-            <label for="question1">Question 1</label>
-            <input type="checkbox" name="question1" id="question1" placeholder="Question 1">
+  </div>
 
             <br>
             <br>
