@@ -12,3 +12,6 @@ div.highlight {
     border: solid 1px black;
     border-radius: 5px;
 }
+.card-img-top{
+    width: 100%;
+}
