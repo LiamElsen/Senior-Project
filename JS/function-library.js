@@ -1,6 +1,17 @@
 function buildGamingPc(formData) {
     if (formData["lapDeskQuestion"] == 'Desktop') {
-        console.log('Desktop Selected');
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': '',
+                'externalUrl': ''
+            }
+
+            return resultObject;
+        }
     } else {
         console.log('Laptop Selected');
     } 
