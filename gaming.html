@@ -20,7 +20,7 @@
         
         <div class="form-group">
           <label for="exampleFormControlSelect1">What game do you play?</label>
-          <select class="form-control" id="gamequestion">
+          <select class="form-control" id="gameQuestion">
             <option>Minecraft</option>
             <option>Counter Strike</option>
             <option>Battlefield V</option>
@@ -29,7 +29,7 @@
 
         <div class="form-group">
           <label for="exampleFormControlSelect1">What resolution do you want to play games at?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="resolutionQuestion">
             <option>1080p at 60 FPS</option>
             <option>1080p at 144 FPS</option>
             <option>2k at 60 FPS</option>
@@ -40,35 +40,15 @@
 
         <div class="form-group">
                 <label for="exampleFormControlSelect1">Do you plan to do streaming?</label>
-                <select class="form-control" id="streamingquestion">
+                <select class="form-control" id="streamingQuestion">
                   <option>Yes</option>
                   <option>No</option>
                 </select>
         </div>
 
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Do you want to have lights or a windowed case?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>Lights</option>
-            <option>Windowed Case</option>
-            <option>Both</option>
-            <option>Neither</option>
-
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">What size case are you looking for </label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>Mini Tower</option>
-            <option>Mid Tower</option>
-            <option>Full Tower</option>
-          
-          </select>
-        </div>
-
-        <div class="form-group">
           <label for="exampleFormControlSelect1">Do you plan on using other apps while playing games? If so what apps do you use?</label>
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select class="form-control" id="additionalAppsQuestion">
             <option>No</option>
             <option>Music</option>
             <option>Chat</option>
@@ -77,6 +57,14 @@
             <option>Music and Web Browsing</option>
             <option>Chat and Web Browsing</option>
             <option>All</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Do you plan to do streaming?</label>
+          <select class="form-control" id="lapDeskQuestion">
+            <option>Laptop</option>
+            <option>Desktop</option>
           </select>
         </div>
         
@@ -94,18 +82,24 @@
 
 
           $("#calculate").click(function () {
-            let gamequestion = $("#gamequestion").val();
-            let streamingquestion = $("#streamingquestion").val();
+            let gameQuestion = $("#gameQuestion").val();
+            let resolutionQuestion = $("#resolutionQuestion").val();
+            let streamingQuestion = $("#streamingQuestion").val();
+            let additionalAppsQuestion = $("#additionalAppsQuestion").val();
+            let lapDeskQuestion = $("#lapDeskQuestion").val();
 
-            let result = buildGamingPc(gamequestion, streamingquestion);
+            let formData = {
+              'gameQuestion': gameQuestion,
+              'gameQuestion': resolutionQuestion,
+              'streamingQuestion': streamingQuestion,
+              'additionalAppsQuestion': additionalAppsQuestion,
+              'lapDeskQuestion': lapDeskQuestion
+            };
+
+            let result = buildGamingPc(formData);
 
             $("#output").html(result);
-          })
-
-          
-
-  
-        
+          });   
       });
       </script>
 </body>
