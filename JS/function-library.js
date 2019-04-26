@@ -14,9 +14,217 @@ function buildGamingPc(formData) {
         }
 
         if (
-            formData["gameQuestion"] == 'Minecraft' &&
+            formData["gameQuestion"] == 'Counter Strike' &&
             formData["resolutionQuestion"] == 1 &&
             formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
         ) {
             let resultObject = {
                 'imageLink': 'Images/tier1-gaming-desktop.jpg',
@@ -30,6 +238,227 @@ function buildGamingPc(formData) {
             formData["gameQuestion"] == 'Minecraft' &&
             formData["resolutionQuestion"] == 1 &&
             formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 1
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 1 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 2 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Minecraft' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Counter Strike' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
+        ) {
+            let resultObject = {
+                'imageLink': 'Images/tier1-gaming-desktop.jpg',
+                'externalUrl': 'https://www.amazon.com/Gaming-Desktop-Computer-3-20GHz-Windows/dp/B07K3TM9W5/ref=sr_1_1?keywords=gaming+desktop&qid=1556224474&refinements=p_n_condition-type%3A6461716011&rnid=6461714011&s=gateway&sr=8-1'
+            }
+
+            return resultObject;
+        }
+
+        if (
+            formData["gameQuestion"] == 'Battlefield V' &&
+            formData["resolutionQuestion"] == 3 &&
+            formData["streamingQuestion"] == 2
         ) {
             let resultObject = {
                 'imageLink': 'Images/tier1-gaming-desktop.jpg',
