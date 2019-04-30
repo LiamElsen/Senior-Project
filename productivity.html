@@ -19,7 +19,7 @@
         
     <div class="form-group">
     <label for="exampleFormControlSelect1">What programs do you mainly use?</label>
-    <select class="form-control" id="question1">
+    <select class="form-control" id="programQuestion">
         <option>Microsoft Office</option>
         <option>CAD Software</option>
         <option>Scientific WorkPlace</option>
@@ -28,7 +28,7 @@
 
     <div class="form-group">
         <label for="exampleFormControlSelect1">Do you want a webcam?</label>
-            <select class="form-control" id="question2">
+            <select class="form-control" id="webcamQuestion">
                 <option>Yes</option>
                 <option>No</option>
     </select>
@@ -36,7 +36,7 @@
 
     <div class="form-group">
         <label for="exampleFormControlSelect1">How much storage do you need?</label>
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="storageQuestion">
           <option>256GB</option>
           <option>512GB</option>
           <option>1TB</option>
@@ -45,7 +45,7 @@
 
       <div class="form-group">
         <label for="exampleFormControlSelect1">Laptop or Desktop?</label>
-            <select class="form-control" id="question2">
+            <select class="form-control" id="lapDeskQuestion">
                 <option>Laptop</option>
                 <option>Desktop</option>
     </select>
@@ -65,10 +65,12 @@
     
     
               $("#calculate").click(function () {
-                let gamequestion = $("#gamequestion").val();
-                let streamingquestion = $("#streamingquestion").val();
+                let programQuestion = $("#programQuestion").val();
+                let webcamQuestion = $("#webcamQuestion").val();
+                let storageQuestion = $("#storageQuestion").val();
+                let lapDeskQuestion = $("#lapDeskQuestion").val();
     
-                let result = buildGamingPc(gamequestion, streamingquestion);
+                let result = buildGamingPc(programQuestion, webcamQuestion, storageQuestion, lapDeskQuestion);
     
                 $("#output").html(result);
               })
