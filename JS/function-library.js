@@ -40,9 +40,6 @@ function buildGamingPc(formData) {
         }
 
 
-
-     
-
         if (
             formData["gameQuestion"] == 'Minecraft' &&
             formData["resolutionQuestion"] == 3 &&
@@ -279,8 +276,6 @@ function buildGamingPc(formData) {
 
             return resultObject;
         }
-
-       
 
         if (
             formData["gameQuestion"] == 'Minecraft' &&
