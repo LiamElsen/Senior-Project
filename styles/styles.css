@@ -17,3 +17,11 @@ div.highlight {
     height: 20em;
     object-fit: contain;
 }
+
+#resultContainer{
+    display:none;
+}
+
+h5.resultHeading{
+    text-align: center;
+}

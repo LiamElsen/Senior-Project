@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
     
-    <script src="JS/function-library.js"></script>
+    <script src="JS/productivity.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
+    <div class="container">
     <a href="index.html"><h1>Senior Project</h1></a>
     <h2>Productivity</h2>
     <form>
@@ -57,7 +58,20 @@
     <div id="output">
     
     </div>
-    
+
+    <br>
+
+  <div class="row" id="resultContainer">
+    <div class="col">
+      <div class="card">
+        <a href="" id="resultLink">
+            <h5 class="resultHeading">Click Here!</h5>
+          <img src="" class="card-img-top img-fluid image" alt="Gaming" id="resultImg">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
           <script>
             $(document).ready(function () {
               console.log("script-loaded");
@@ -71,8 +85,11 @@
                 let lapDeskQuestion = $("#lapDeskQuestion").val();
     
                 let result = buildProductivityPc(programQuestion, webcamQuestion, storageQuestion, lapDeskQuestion);
-    
-                $("#output").html(result);
+      
+      console.log(result);
+      $("#resultContainer").css("display", "block");
+      $("#resultLink").attr('href', result['externalUrl']);
+      $("#resultImg").attr('src', result['imageLink']);
               })
     
               

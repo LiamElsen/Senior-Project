@@ -9,83 +9,91 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
     
-    <script src="JS/function-library.js"></script>
+    <script src="JS/gaming.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
-<a href="index.html"><h1>Senior Project</h1></a>
-<h2>Gaming</h2>
-<form>
-        
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">What game do you play?</label>
-          <select class="form-control" id="gameQuestion">
-            <option>Minecraft</option>
-            <option>Counter Strike</option>
-            <option>Battlefield V</option>
-          </select>
-        </div>
+<div class="container">
+  <a href="index.html"><h1>Senior Project</h1></a>
+  <h2>Gaming</h2>
+  <form>  
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What game do you play?</label>
+      <select class="form-control" id="gameQuestion">
+        <option>Minecraft</option>
+        <option>Counter Strike</option>
+        <option>Battlefield V</option>
+      </select>
+    </div>
 
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">What resolution do you want to play games at?</label>
-          <select class="form-control" id="resolutionQuestion">
-            <option value="1">1080p at 60 FPS</option>
-            <option value="3">4k at 60 FPS</option>
-          </select>
-        </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What resolution do you want to play games at?</label>
+      <select class="form-control" id="resolutionQuestion">
+        <option value="1">1080p at 60 FPS</option>
+        <option value="3">4k at 60 FPS</option>
+      </select>
+    </div>
 
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Do you plan to do streaming?</label>
-          <select class="form-control" id="streamingQuestion">
-            <option value="2">Yes</option>
-            <option value="1">No</option>
-          </select>
-        </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Do you plan to do streaming?</label>
+      <select class="form-control" id="streamingQuestion">
+        <option value="2">Yes</option>
+        <option value="1">No</option>
+      </select>
+    </div>
 
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Laptop or Desktop?</label>
-          <select class="form-control" id="lapDeskQuestion">
-            <option>Laptop</option>
-            <option>Desktop</option>
-          </select>
-        </div>
-        
-        <button type="button" class="btn btn-danger btn-lg btn-block" id="calculate">Build My PC!</button>
-      </form>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Laptop or Desktop?</label>
+      <select class="form-control" id="lapDeskQuestion">
+        <option>Laptop</option>
+        <option>Desktop</option>
+      </select>
+    </div>
+    
+    <button type="button" class="btn btn-danger btn-lg btn-block" id="calculate">Build My PC!</button>
+  </form>
 
-      <div id="output">
-      <a href="" id="resultLink">
-        <img src="" id="resultImg">
-      </a>
+  <br>
+
+  <div class="row" id="resultContainer">
+    <div class="col">
+      <div class="card">
+        <a href="" id="resultLink">
+            <h5 class="resultHeading">Click Here!</h5>
+          <img src="" class="card-img-top img-fluid image" alt="Gaming" id="resultImg">
+        </a>
       </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    console.log("script-loaded");
+
+    $("#calculate").click(function () {
+      let gameQuestion = $("#gameQuestion").val();
+      let resolutionQuestion = $("#resolutionQuestion").val();
+      let streamingQuestion = $("#streamingQuestion").val();
+      let additionalAppsQuestion = $("#additionalAppsQuestion").val();
+      let lapDeskQuestion = $("#lapDeskQuestion").val();
+
+      let formData = {
+        'gameQuestion': gameQuestion,
+        'resolutionQuestion': resolutionQuestion,
+        'streamingQuestion': streamingQuestion,
+        'lapDeskQuestion': lapDeskQuestion
+      };
+
+      let result = buildGamingPc(formData);
       
-      <script>
-        $(document).ready(function () {
-          console.log("script-loaded");
-
-          $("#calculate").click(function () {
-            let gameQuestion = $("#gameQuestion").val();
-            let resolutionQuestion = $("#resolutionQuestion").val();
-            let streamingQuestion = $("#streamingQuestion").val();
-            let additionalAppsQuestion = $("#additionalAppsQuestion").val();
-            let lapDeskQuestion = $("#lapDeskQuestion").val();
-
-            let formData = {
-              'gameQuestion': gameQuestion,
-              'resolutionQuestion': resolutionQuestion,
-              'streamingQuestion': streamingQuestion,
-              'lapDeskQuestion': lapDeskQuestion
-            };
-
-            let result = buildGamingPc(formData);
-            
-            console.log(result);
-
-            $("#resultLink").attr('href', result['externalUrl']);
-            $("#resultImg").attr('src', result['imageLink']);
-          });
-        });
-      </script>
+      console.log(result);
+      $("#resultContainer").css("display", "block");
+      $("#resultLink").attr('href', result['externalUrl']);
+      $("#resultImg").attr('src', result['imageLink']);
+    });
+  });
+</script>
 </body>
 </html>
