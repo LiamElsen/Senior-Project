@@ -20,16 +20,15 @@
         
         <div class="form-group">
           <label for="exampleFormControlSelect1">Do you need a webcam?</label>
-          <select class="form-control" id="?">
+          <select class="form-control" id="webcamQuestion">
             <option>Yes</option>
             <option>No</option>
-            <option></option>
           </select>
         </div>
 
         <div class="form-group">
           <label for="exampleFormControlSelect1">How much storage do you need?</label>
-          <select class="form-control" id="?">
+          <select class="form-control" id="storageQuestion">
             <option>256GB</option>
             <option>512GB</option>
             <option>1TB</option>
@@ -58,10 +57,11 @@
 
 
           $("#calculate").click(function () {
-            let gamequestion = $("#gamequestion").val();
-            let streamingquestion = $("#streamingquestion").val();
+            let gameQuestion = $("#gameQuestion").val();
+            let streamingQuestion = $("#streamingQuestion").val();
+            let lapDeskQuestion = $("#lapDeskQuestion").val();
 
-            let result = buildGamingPc(gamequestion, streamingquestion);
+            let result = buildWebBrowsingPc(gameQuestion, streamingQuestion, lapDeskQuestion);
 
             $("#output").html(result);
           })
