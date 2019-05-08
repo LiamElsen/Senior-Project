@@ -59,7 +59,7 @@
         <img src="" id="resultImg">
       </a>
       </div>
-
+      
       <script>
         $(document).ready(function () {
           console.log("script-loaded");
@@ -82,9 +82,8 @@
             
             console.log(result);
 
-            $("resultLink").attr('href', result['externalUrl']);
-            $("resultLink").html(result['externalUrl']);
-            $("resultImg").attr('src', result['imageLink']);
+            $("#resultLink").attr('href', result['externalUrl']);
+            $("#resultImg").attr('src', result['imageLink']);
           });
         });
       </script>
