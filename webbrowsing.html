@@ -58,7 +58,7 @@
       <div class="card">
         <a href="" id="resultLink">
             <h5 class="resultHeading">Click Here!</h5>
-          <img src="" class="card-img-top img-fluid image" alt="Gaming" id="resultImg">
+          <img src="" class="card-img-top img-fluid image" alt="Web Browsing" id="resultImg">
         </a>
       </div>
     </div>
@@ -72,11 +72,17 @@
 
 
           $("#calculate").click(function () {
-            let gameQuestion = $("#gameQuestion").val();
-            let streamingQuestion = $("#streamingQuestion").val();
+            let webcamQuestion = $("#webcamQuestion").val();
+            let storageQuestion = $("#storageQuestion").val();
             let lapDeskQuestion = $("#lapDeskQuestion").val();
+            
+            let formData = {
+              'webcamQuestion': webcamQuestion,
+              'storageQuestion': storageQuestion,
+              'lapDeskQuestion': lapDeskQuestion
+            };
 
-            let result = buildWebBrowsingPc(gameQuestion, streamingQuestion, lapDeskQuestion);
+            let result = buildWebBrowsingPc(formData);
       
       console.log(result);
       $("#resultContainer").css("display", "block");

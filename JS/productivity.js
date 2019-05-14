@@ -6,8 +6,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -19,8 +19,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -32,8 +32,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -46,8 +46,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -59,8 +59,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -72,8 +72,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -85,8 +85,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -98,8 +98,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -111,8 +111,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -125,8 +125,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -138,8 +138,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -151,8 +151,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -164,8 +164,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -177,8 +177,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -190,8 +190,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -204,8 +204,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -217,8 +217,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -230,8 +230,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocaddesktop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIAEYJ'
             }
 
             return resultObject;
@@ -245,8 +245,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -258,8 +258,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -271,8 +271,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -285,8 +285,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -298,8 +298,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -311,8 +311,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
+                'externalUrl': 'https://www.microsoft.com/en-us/store/config/Surface-Laptop-2/8XQJKK3DD91B?crosssellid=surfacefamily4a&selectedColor=000000&preview=&previewModes='
             }
 
             return resultObject;
@@ -324,8 +324,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -337,8 +337,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -350,8 +350,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -364,8 +364,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -377,8 +377,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -390,8 +390,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -403,8 +403,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -416,8 +416,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -429,8 +429,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -443,8 +443,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -456,8 +456,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;
@@ -469,8 +469,8 @@ function buildProductivityPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/autocadlaptop.jpg',
+                'externalUrl': 'https://m.newegg.com/product/9SIA8X58HT5287?m_ver=1'
             }
 
             return resultObject;

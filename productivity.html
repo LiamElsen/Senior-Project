@@ -66,7 +66,7 @@
       <div class="card">
         <a href="" id="resultLink">
             <h5 class="resultHeading">Click Here!</h5>
-          <img src="" class="card-img-top img-fluid image" alt="Gaming" id="resultImg">
+          <img src="" class="card-img-top img-fluid image" alt="Productivity" id="resultImg">
         </a>
       </div>
     </div>
@@ -84,7 +84,14 @@
                 let storageQuestion = $("#storageQuestion").val();
                 let lapDeskQuestion = $("#lapDeskQuestion").val();
     
-                let result = buildProductivityPc(programQuestion, webcamQuestion, storageQuestion, lapDeskQuestion);
+                let formData = {
+                  'programQuestion': programQuestion,
+                  'webcamQuestion': webcamQuestion,
+                  'storageQuestion': storageQuestion,
+                  'lapDeskQuestion': lapDeskQuestion
+                };
+
+                let result = buildProductivityPc(formData);
       
       console.log(result);
       $("#resultContainer").css("display", "block");

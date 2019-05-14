@@ -5,8 +5,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -17,8 +17,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -29,8 +29,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -42,8 +42,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/.jpg',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -54,8 +54,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -66,8 +66,8 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': '',
-                'externalUrl': ''
+                'imageLink': 'Images/webbrowsingdesktop.jpg',
+                'externalUrl': 'https://www.bestbuy.com/site/dell-inspiron-desktop-intel-core-i3-8gb-memory-1tb-hard-drive-black-with-silver-trim/6228202.p?skuId=6228202'
             }
 
             return resultObject;
@@ -80,7 +80,7 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/webBrowsingLaptop.jpg',
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
                 'externalUrl': 'https://www.microsoft.com/en-us/store/config/surface-laptop-2/8xqjkk3dd91b/jx8c'
             }
 
@@ -92,7 +92,7 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/webBrowsingLaptop.jpg',
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
                 'externalUrl': 'https://www.microsoft.com/en-us/store/config/surface-laptop-2/8xqjkk3dd91b/jx8c'
             }
 
@@ -104,7 +104,7 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '1TB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/webBrowsingLaptop.jpg',
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
                 'externalUrl': 'https://www.microsoft.com/en-us/store/config/surface-laptop-2/8xqjkk3dd91b/jx8c'
             }
 
@@ -117,7 +117,7 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '256GB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/webBrowsingLaptop.jpg',
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
                 'externalUrl': 'https://www.microsoft.com/en-us/store/config/surface-laptop-2/8xqjkk3dd91b/jx8c'
             }
 
@@ -129,7 +129,7 @@ function buildWebBrowsingPc(formData) {
             formData["storageQuestion"] == '512GB'
         ) {
             let resultObject = {
-                'imageLink': 'Images/webBrowsingLaptop.jpg',
+                'imageLink': 'Images/webBrowsingLaptop.jpeg',
                 'externalUrl': 'https://www.microsoft.com/en-us/store/config/surface-laptop-2/8xqjkk3dd91b/jx8c'
             }
 
